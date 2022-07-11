@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -28,12 +28,27 @@
     <div class="fixed z-50 top-0 w-full">
       <!-- Nav will have two div children each for left and right parts of the bar -->
       <nav
-        class="w-full shadow-md flex bg-white justify-between items-center py-1 px-2"
+        class="w-full border flex bg-white justify-between items-center py-1 px-2 xl:shadow-md"
       >
         <!-- Left Side -->
         <div
           class="flex items-center justify-between text-gray-700 cursor-pointer"
         >
+          <!-- Hamburger Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="hover:bg-gray-100 focus:bg-gray-100 mx-0.5 p-3 rounded xl:hidden"
+            width=""
+            height="50"
+            fill="black"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
           <!-- Logo -->
           <div
             class="flex hover:bg-gray-100 ease-in duration-100 text-xl py-2 px-2 rounded-md items-center"
@@ -53,7 +68,7 @@
 
           <!-- Choices -->
           <ul
-            class="flex ml-4 font-semibold tracking-wide text-md text-gray-500 gap-4"
+            class="hidden ml-4 font-medium tracking-wide text-md text-gray-500 gap-4 xl:flex"
           >
             <li></li>
             <li class="hover:text-gray-900 ease-in duration-200">Overview</li>
@@ -65,7 +80,7 @@
         <!-- Left Side End -->
 
         <!-- Right Side -->
-        <div class="flex space-x-4">
+        <div class="hidden space-x-4 xl:flex">
           <ul
             class="flex justify-between space-x-3 items-center cursor-pointer"
           >
@@ -102,21 +117,30 @@
     <div class="font-roboto space-y-40">
       <section>
         <!-- Outer Div, contain both text and image horizontally -->
-        <div class="flex justify-center gap-8 items-center">
-          <div class="flex flex-col gap-8 max-w-md justify-left">
-            <div class="flex text-left flex-col items-center mt-40">
+        <div
+          class="flex flex-col justify-center gap-8 items-center xl:flex-row"
+        >
+          <!-- Inner div containing text part -->
+          <div class="flex flex-col gap-8 items-center xl:max-w-md xl:items-start">
+            <!-- Header and para text -->
+            <div
+              class="flex text-center flex-col items-center mt-40 xl:text-left"
+            >
               <h1
-                class="font-semibold text-6xl text-black text-opacity-80 my-3"
+                class="font-medium text-4xl text-black text-opacity-80 my-3 sm:text-6xl"
               >
                 Get insights quickly, with Google Forms
               </h1>
-              <p class="text-xl text-gray-700 my-3 max-wd-sm">
+              <p class="text-lg text-gray-700 my-3 max-wd-sm sm:text-xl">
                 Easily create and share online forms and surveys, and analyze
                 responses in real-time.
               </p>
             </div>
 
-            <div class="flex flex-wrap space-y-6 gap-4 items-baseline">
+            <!-- Buttons -->
+            <div
+              class="flex flex-col gap-4 xs:flex-row xs:items-baseline"
+            >
               <button
                 class="font-sans font-medium text-white bg-blue-600 rounded-md px-5 py-3 border hover:bg-blue-800"
               >
@@ -129,7 +153,8 @@
               </button>
             </div>
 
-            <div class="flex flex-wrap justify-left gap-5">
+            <!-- Signup text -->
+            <div class="flex flex-col flex-wrap items-center font-semibold tracking-tight gap-3 sm:flex-row sm:gap-5">
               <p class="text-gray-700">Don't have an account?</p>
               <p class="cursor-pointer text-blue-600 hover:text-blue-800">
                 Sign up for free
@@ -137,6 +162,7 @@
             </div>
           </div>
 
+          <!-- Image Part -->
           <img
             class="mt-40 max-w-3xl"
             src="https://lh3.googleusercontent.com/DdO4EtwzMPrHk1_ICy2CUuJp_flijkJ0VEJ1GAyXUHW-s7qHKTIy3AxiwyYdN42p7HVVi3AxOK6qWG5ABrtTm-8D9w_9yoE4w8wM0SSpmJXYwxmmN_A=s0"
@@ -166,7 +192,9 @@
         </div>
 
         <!-- Container for image and text -->
-        <div class="flex items-center justify-center gap-x-16">
+        <div
+          class="flex flex-col items-center justify-center gap-x-16 xl:flex-row"
+        >
           <img
             class="max-w-2xl h-auto bg-local"
             src="https://lh3.googleusercontent.com/m0yF4miYUwX5Iy19tKYbMElej8Q5SWeV5mU0XTYknCcYBZipW9C3D5ldoF68iKURaRNiJuNXsZ8C7eN93_KfRR9zOtUqFXk9VKm2_YW38tSGz8VNaI4=w0-l80-sg-rj-c0xffffff"
@@ -175,7 +203,7 @@
 
           <!-- Container for Text -->
           <div class="flex flex-col justify-center gap-4 max-w-md">
-            <h2 class="font-semibold text-4xl text-gray-800">
+            <h2 class="font-medium text-4xl text-gray-800">
               Create an online form as easily as creating a document
             </h2>
             <p class="text-xl text-gray-600 my-3 max-wd-sm">
@@ -242,7 +270,7 @@
 
           <!-- Container for Text -->
           <div class="flex flex-col justify-center gap-4 max-w-md">
-            <h2 class="font-semibold text-4xl text-gray-800">
+            <h2 class="font-medium text-4xl text-gray-800">
               Analyze responses with automatic summaries
             </h2>
             <p class="text-xl text-gray-600 my-3 max-wd-sm">
@@ -261,7 +289,7 @@
         <div class="flex items-center justify-center gap-x-60">
           <!-- Container for Text -->
           <div class="flex flex-col justify-center gap-4 max-w-md">
-            <h2 class="font-semibold text-4xl text-gray-800">
+            <h2 class="font-medium text-4xl text-gray-800">
               Create and respond to surveys from anywhere
             </h2>
             <p class="text-xl text-gray-600 my-3 max-wd-sm">
@@ -350,7 +378,7 @@
         </div>
 
         <div class="space-y-10">
-          <h2 class="text-4xl font-bold text-center">
+          <h2 class="text-4xl font-medium text-center">
             Security, compliance and privacy
           </h2>
           <div class="flex gap-20 justify-center">
@@ -447,7 +475,7 @@
       <section>
         <!-- Workspace Overview -->
         <div class="space-y-5 text-center">
-          <h2 class="text-4xl font-bold tracking-wide">
+          <h2 class="text-4xl font-medium tracking-wide">
             Find the plan that's right for you
           </h2>
           <p class="font-semibold tracking-tight text-xl text-gray-600">
@@ -1011,7 +1039,7 @@
       <section>
         <div class="flex flex-col items-center space-y-16">
           <div>
-            <h2 class="text-4xl font-bold text-center mb-3">
+            <h2 class="text-4xl font-medium text-center mb-3">
               Get a head start with templates
             </h2>
             <p
@@ -1088,7 +1116,7 @@
           />
         </div>
         <div class="flex flex-col items-center gap-4">
-          <h2 class="text-4xl font-semibold">Ready to get started?</h2>
+          <h2 class="text-4xl font-medium">Ready to get started?</h2>
           <div class="flex flex-wrap space-y-6 gap-4 items-baseline">
             <button
               class="font-sans font-medium text-white bg-blue-600 rounded-md px-5 py-3 border hover:bg-blue-800"
