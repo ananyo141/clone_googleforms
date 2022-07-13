@@ -636,6 +636,31 @@ video {
   margin-bottom: 4rem;
 }
 
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -700,6 +725,10 @@ video {
   margin-left: 1.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -758,6 +787,10 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-3xl {
@@ -1249,6 +1282,16 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
 .text-opacity-80 {
   --tw-text-opacity: 0.8;
 }
@@ -1383,6 +1426,15 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .xl\:mt-40 {
+    margin-top: 10rem;
+  }
+
   .xl\:flex {
     display: flex;
   }
@@ -1395,12 +1447,24 @@ video {
     max-width: 28rem;
   }
 
+  .xl\:max-w-3xl {
+    max-width: 48rem;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
 
   .xl\:items-start {
     align-items: flex-start;
+  }
+
+  .xl\:justify-center {
+    justify-content: center;
+  }
+
+  .xl\:gap-8 {
+    gap: 2rem;
   }
 
   .xl\:text-left {
