@@ -1383,6 +1383,10 @@ video {
     flex-direction: row;
   }
 
+  .sm\:items-center {
+    align-items: center;
+  }
+
   .sm\:gap-5 {
     gap: 1.25rem;
   }
