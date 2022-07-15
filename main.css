@@ -602,8 +602,8 @@ video {
   z-index: 50;
 }
 
-.-m-12 {
-  margin: -3rem;
+.-m-16 {
+  margin: -4rem;
 }
 
 .mx-0\.5 {
@@ -641,9 +641,9 @@ video {
   margin-bottom: 4rem;
 }
 
-.-mx-12 {
-  margin-left: -3rem;
-  margin-right: -3rem;
+.-mx-16 {
+  margin-left: -4rem;
+  margin-right: -4rem;
 }
 
 .ml-4 {
@@ -702,6 +702,14 @@ video {
   margin-bottom: 1rem;
 }
 
+.-mt-16 {
+  margin-top: -4rem;
+}
+
+.-mt-12 {
+  margin-top: -3rem;
+}
+
 .ml-6 {
   margin-left: 1.5rem;
 }
@@ -752,10 +760,6 @@ video {
 
 .w-12 {
   width: 3rem;
-}
-
-.w-4\/6 {
-  width: 66.666667%;
 }
 
 .w-5\/12 {
@@ -897,6 +901,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-y-5 {
+  row-gap: 1.25rem;
 }
 
 .gap-x-16 {
@@ -1068,9 +1076,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-16 {
@@ -1091,6 +1104,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .py-12 {
@@ -1436,17 +1454,13 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:m-0 {
-    margin: 0px;
-  }
-
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .lg\:-mt-12 {
-    margin-top: -3rem;
+  .lg\:w-4\/6 {
+    width: 66.666667%;
   }
 
   .lg\:max-w-2xl {
@@ -1477,19 +1491,14 @@ video {
     gap: 0px;
   }
 
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 }
 
