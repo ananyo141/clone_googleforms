@@ -1295,6 +1295,8 @@ video {
 
 @media (min-width: 1024px) {
   .bg-image_ {
+    margin-left: -130px;
+    margin-right: -130px;
     display: block;
   }
 }
@@ -1459,12 +1461,12 @@ video {
     margin-right: 0px;
   }
 
-  .lg\:w-4\/6 {
-    width: 66.666667%;
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
-  .lg\:max-w-2xl {
-    max-width: 42rem;
+  .lg\:w-4\/6 {
+    width: 66.666667%;
   }
 
   .lg\:max-w-md {
@@ -1521,6 +1523,10 @@ video {
 
   .xl\:max-w-3xl {
     max-width: 48rem;
+  }
+
+  .xl\:max-w-2xl {
+    max-width: 42rem;
   }
 
   .xl\:flex-row {

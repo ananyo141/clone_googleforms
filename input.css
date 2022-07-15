@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 .bg-image_ {
-	z-index: -1;	
-    overflow: hidden;
-    display: none;
-    position: absolute;
-    width: 250px;
+  z-index: -1;
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  width: 250px;
 }
 
 @media (min-width: 1024px) {
-    .bg-image_ {
-        display: block;
-    }
+  .bg-image_ {
+    margin-left: -130px;
+    margin-right: -130px;
+    display: block;
+  }
 }
