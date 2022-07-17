@@ -750,12 +750,12 @@ video {
   width: 13rem;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .w-3\/4 {
   width: 75%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-12 {
@@ -1521,12 +1521,12 @@ video {
     display: none;
   }
 
-  .xl\:max-w-md {
-    max-width: 28rem;
+  .xl\:w-1\/2 {
+    width: 50%;
   }
 
-  .xl\:max-w-3xl {
-    max-width: 48rem;
+  .xl\:max-w-md {
+    max-width: 28rem;
   }
 
   .xl\:max-w-2xl {
