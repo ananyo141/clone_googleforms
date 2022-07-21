@@ -1,10 +1,13 @@
-# A Clone of [Google Forms Landing Page](https://www.google.com/forms/about/)
+# A Clone of 
+## [Google Forms Landing Page](https://www.google.com/forms/about/)
 
-This repo contains a fully responsive html document written from scratch using _Tailwindcss framework_,
+This repo contains a fully responsive html document written from scratch using
+_ReactJS_ and _Tailwindcss framework_,
 keeping in mind the different viewports across a variety of devices.
 
 ## Usage
-Just clone the repo and open the `index.html` file in a browser (chrome and firefox recommended), and rest should happen automatically.
+Clone the repo with `git clone https://github.com/ananyo141/clone_googleforms` and run
+`npm run start` to view the application on localhost.
 
 ## License
 [MIT License](./LICENSE)
