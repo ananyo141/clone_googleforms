@@ -1,0 +1,4 @@
+- Change anchor tags to Links
+- Add react smooth scrolling
+- Make button components, use them instead of defining everywhere
+- Make navbar responsive
