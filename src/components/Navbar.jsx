@@ -24,12 +24,12 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex hover:bg-gray-100 ease-in duration-100 text-xl py-2 px-2 rounded-md items-center">
             <img src={logo} alt="Google Forms Logo" />
-            <a href="#" className="first-letter:text-2xl">
-              <span className="hover:text-black tracking-tighter font-montserrat font-semibold ease-in duration-100">
-                Google
-              </span>
-              <span className="text-gray-600">Forms</span>
-            </a>
+              <a href="#" className="first-letter:text-2xl">
+                <span className="hover:text-black tracking-tighter font-montserrat font-semibold ease-in duration-100">
+                  Google
+                </span>
+                <span className="text-gray-600">Forms</span>
+              </a>
           </div>
 
           {/* Choices */}

@@ -6,9 +6,9 @@ import { AnalyzeResponse } from "./AnalyzeResponse";
 import { Respond } from "./Respond";
 import { BuildWorkShare } from "./BuildWorkShare";
 import { SecurityCompliance } from "./SecurityCompliance";
-import { Pricing } from "./Pricing";
-import { Templates } from "./Templates";
-import { Ready } from "./Ready";
+// import { Pricing } from "./Pricing";
+// import { Templates } from "./Templates";
+// import { Ready } from "./Ready";
 
 export const Page = () => {
   return (
@@ -20,9 +20,9 @@ export const Page = () => {
         <Respond />
         <BuildWorkShare />
         <SecurityCompliance />
-        <Pricing />
-        <Templates />
-        <Ready />
+        {/* <Pricing /> */}
+        {/* <Templates /> */}
+        {/* <Ready /> */}
     </div>
   );
 };
